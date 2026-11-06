@@ -1,0 +1,15 @@
+package com.equipe.lavemais
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            // Aqui nós mandamos o aplicativo abrir a sua nova tela de login!
+            PerfilScreen()
+        }
+    }
+}
